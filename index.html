@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Audio Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        footer a {
+            color: #ff5733; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Interactive Audio Page!</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Play the noise</a></li>
+                <li><a href="#section2">Adjust the volume</a></li>
+                <li><a href="#section3">Is Playing??</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="section1">
+        <h2>Play the noise</h2>
+        <p>This section is for playing pink noise.</p>
+        <button id="playButton">Play Pink Noise</button>
+    </section>
+
+    <section id="section2">
+        <h2>Adjust the volume</h2>
+        <p>Adjust the volume of the pink noise:</p>
+        <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="0.5">
+    </section>
+
+    <section id="section3">
+        <h2>Is Playing??</h2>
+        <p id="statusMessage">Pink noise is not playing.</p>
+        <audio id="pinkNoise" src="Pink Noide.wav" loop></audio>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Interactive Audio Page from Michele Grimaldi</p>
+        <p>Check <a href="https://github.com/Mike014" target="_blank">GitHub</a></p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
